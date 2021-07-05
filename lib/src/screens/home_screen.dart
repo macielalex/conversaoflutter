@@ -1,3 +1,4 @@
+import 'package:br_hidro_flutter/src/screens/busca_produto.dart';
 import 'package:br_hidro_flutter/src/screens/composicao.dart';
 import 'package:br_hidro_flutter/src/widgets/custom_drawer.dart';
 import 'package:flutter/material.dart';
@@ -29,7 +30,7 @@ class HomeScreen extends StatelessWidget {
             title: Text("Pressão"),
             centerTitle: true,
           ),
-          body: Container(color: Colors.blue,),
+          body: BuscaProduto(),
           drawer: CustomDrawer(pageController),
         ),
         Scaffold(
